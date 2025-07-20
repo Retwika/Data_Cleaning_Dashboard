@@ -1,15 +1,15 @@
 # Interactive Data Cleaning App
 
-A modular, interactive Streamlit app for step-by-step data cleaning, profiling, and visualization. Designed for usability, real-time feedback, and extensibility.
+A modular, interactive Streamlit app for step-by-step data cleaning, profiling, and visualization. Designed for usability and extensibility.
 
 ## Features
 - Upload or use a default CSV dataset
 - Data profiling: summary stats, missing values, outlier detection
 - Step-by-step cleaning wizard (imputation, outlier handling, duplicate removal, etc.)
 - Advanced and standard cleaning modes
-- Interactive visualizations (Altair only)
+- Interactive visualizations (using Altair)
 - Per-action review and apply workflow
-- Export cleaned data and cleaning reports
+- Export cleaned data 
 - Modular codebase for easy extension
 
 ## File Structure
@@ -18,7 +18,7 @@ A modular, interactive Streamlit app for step-by-step data cleaning, profiling, 
 - `data_utils.py` — Helper functions for cleaning and profiling
 - `viz_utils.py` — Visualization helpers (Altair)
 - `requirements.txt` — Python dependencies
-- `default_data.csv` — (Optional) Default dataset loaded if no file is uploaded
+- `default_data.csv` — Default dataset loaded if no file is uploaded(FED Reserve Interest Rate Dataset from Kaggle)
 
 
 ## Usage
