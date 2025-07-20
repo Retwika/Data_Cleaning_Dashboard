@@ -26,6 +26,8 @@ Run the Streamlit app:
 ```bash
 streamlit run data_cleaning_app.py
 ```
+or can use go to https://idata-cleaning-dashboard.streamlit.app/
+
 - Use the sidebar to upload a CSV or work with the default dataset.
 - Explore tabs for profiling, cleaning, review, export, and visualization.
 - Apply cleaning actions step-by-step and export results as needed.
